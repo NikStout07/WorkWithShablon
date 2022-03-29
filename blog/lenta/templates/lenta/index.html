@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block title %}
+Главная страничка
+{% endblock %}
+{% block content %}
+
+<nav>
+    {% for country in countries %}
+    <a href="/{{country.continent}}/{{country.id}}/">{{country.title}}</a>
+    {% endfor %}
+</nav>
+
+{% endblock %}
+
+

@@ -1,0 +1,2 @@
+.row {border: 1px dashed grey; border-radius: 4px;padding: 16px 16px 0px}
+div[class^="col"] p{background-color: #D7E9FF;border-radius: 8px; padding: 30px}
